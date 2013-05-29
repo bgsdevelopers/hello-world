@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<meta name="viewport" content="user-scalable=no,width=device-width" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<style>
+	
+.ui-li-thumb, .ui-listview .ui-li-icon {
+	position: absolute;
+	left: 10px !important;
+	top: 10px !important;
+	max-height: 80px;
+	max-width: 80px;
+}
+	
+	</style>
+</head> 
+
+<body> 
+
+<div data-role="page" id="home" data-theme="a">
+  <div data-role="header">
+    <h1>myBGS</h1>
+  </div>
+
+  <div data-role="content">
+    <ul id="list1" data-role="listview" data-inset="true">
+      
+      <li><a href="http://mapapps.bgs.ac.uk/genericViewer/GBViewer.html">
+        <img src="images/viewerIcon_no_shadow.png" />
+        <h1>Geology of Britain Mobile</h1>
+        <p>A simple Geology of Britain viewer that <br>helps you explore your local geology.</p></a>
+      </a></li>
+      <li><a href="http://mapapps.bgs.ac.uk/boreholescans_mobile/MobileBoreholeScans.html">
+        <img src="images/coreSample_icon.png" />
+        <h3>Borehole Scans</h3>
+        <p>Online access to the National Geoscience <br>Data Centre collection of onshore scanned <br>boreholes, shafts and well records.</p>
+      </a></li>
+	  <li><a href="http://mapapps.bgs.ac.uk/geoscenic_mobile/home.html">
+        <img src="images/geoscenic.jpg" />
+        <h3>GeoScenic</h3>
+        <p>View spatially referenced entries of images <br>from the National Archive of Geological Photographs.</p>
+      </a></li>
+	  <li><a href="http://mapapps2.bgs.ac.uk/groundhog_mobile/home.html">
+        <img src="images/groundhog.png" />
+        <h3>Groundhog</h3>
+        <p>Drill virtual boreholes or draw virtual cross-<br>sections through a geological model in three <br>selected areas of the UK; reflecting a range of geological settings</p>
+      </a></li>
+    </ul>
+  </div>
+  
+  <div data-role="footer">
+    <h1>myBGS</h1>
+  </div>
+</div>
+
+</body>
+</html>
